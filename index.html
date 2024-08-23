@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemish Fitness</title>
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    body {
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: cover;
+        background-position-x: 100%;
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        width: 138px;
+        height: 163px;
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 27px;
+        line-height: 17px;
+    }
+
+    .leftImg {
+        width: 136px;
+        /* filter:invert(100%);  */
+    }
+
+    .mid {
+        display: block;
+        width: 42%;
+        margin: 63px auto;
+        /* border: 2px solid green; */
+        top: 20px;
+        text-align: center;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 33px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 23px 25px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: "New Amsterdam", sans-serif;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(98, 91, 91);
+    }
+
+    .container {
+        border: 2px solid white;
+        border-radius: 2px;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        margin: 11px auto;
+        width: 460px;
+        padding: 1px;
+        border: 2px solid black;
+        font-size: 21px;
+        border-radius: 10px;
+        font-family: "New Amsterdam", sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        left: 50px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="Image not found" class="leftImg">
+            <div>Hemish Fitness</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for the buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym of Ahemdabad Today</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <buttom class="btn">Submit</buttom>
+        </form>
+    </div>
+</body>
+
+</html>

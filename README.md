@@ -1,2 +1,2 @@
 # Project-01
-Simple Gym Websote
+Simple Gym Website
